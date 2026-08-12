@@ -5,7 +5,7 @@ title: Spike Bounce - Gizlilik Politikasi / Privacy Policy
 
 # Spike Bounce — Gizlilik Politikası
 
-**Son güncelleme:** 10 Ağustos 2026
+**Son güncelleme:** 13 Ağustos 2026
 **İletişim:** nezirarslan.dev@gmail.com
 
 > Bu metin oyunun **gerçekte ne yaptığına** bakılarak yazıldı, şablondan değil.
@@ -13,28 +13,65 @@ title: Spike Bounce - Gizlilik Politikasi / Privacy Policy
 
 ## Kısaca
 
-Spike Bounce bir hesap açmanı istemez, seni tanımlamaz ve oyun ilerlemeni bir sunucuya
-göndermez. Skorların, coinlerin, açtığın toplar ve ayarların **yalnızca telefonunda**
-durur. Oyunu silersen bunlar da silinir.
+Spike Bounce'un kendi sunucusu ve kendi hesap sistemi yoktur. Ama oyun **Google Play Oyun
+Hizmetleri**'ni kullanır: telefonundaki Google hesabınla otomatik giriş yapar, oyun
+ilerlemeni Google'ın bulut kaydında tutar ve Arena rekorunu herkese açık bir sıralamaya
+gönderir. Ayarların ve satın alma hakkın yalnızca telefonunda durur. Reklamlar bir üçüncü
+taraf tarafından sunulur ve reklam kimliğini işler.
 
-## Cihazında kalan veriler
+Bulut kaydı ve sıralama istersen kapatılabilir: Play Oyunları girişini reddedersen oyun
+tamamen çevrimdışı çalışır, hiçbir şey gönderilmez.
 
-Şunlar Android'in kendi yerel depolama alanında (Unity PlayerPrefs / SharedPreferences)
-saklanır ve **hiçbir yere gönderilmez**:
+## Google Play Oyun Hizmetleri
 
-- En yüksek skorların (her mod için ayrı), toplam koşu sayısı
-- Coin, XP, seviye, açtığın toplar, petler, unvanlar
+Oyunu açtığında Google Play Oyun Hizmetleri'ne **otomatik giriş** denenir. Giriş
+penceresini Google gösterir; şifreni oyun görmez. Girişten sonra oyuna ulaşan tek kimlik
+bilgisi Play Oyunları **oyuncu kimliğin ve görünen adındır**. E-posta adresin, gerçek adın
+ve rehberin bize gelmez.
+
+Giriş başarısız olursa ya da reddedersen oyun çevrimdışı moda düşer: bulut kaydı ve gerçek
+sıralama devre dışı kalır, Arena panellerinde "çevrimdışı" uyarısı görünür, oyun oynanmaya
+devam eder.
+
+### Bulut kaydı (Saved Games)
+
+Giriş yaptıysan ilerlemen, Google hesabına bağlı bir kayıt dosyasında
+(`spike_bounce_progress_v1`) saklanır. Böylece oyunu silip yeniden kurduğunda ya da telefon
+değiştirdiğinde ilerlemen geri gelir. Bu dosya Google'ın Play Oyunları altyapısında durur;
+**bizim erişebileceğimiz bir kopyası yoktur**, sunucumuz yoktur.
+
+Buluta giden veriler yalnızca oyun ilerlemesidir:
+
+- En yüksek skorların (her mod için ayrı), toplam koşu sayısı, toplam XP, bölüm ilerlemen
+- Coin, açtığın toplar, izler, patlamalar, temalar, ses paketleri, unvanlar, petler
+- Seçili görünüm tercihlerin (hangi top, hangi tema, hangi ses paketi seçili)
+- Görev/başarım ilerlemen, sezon geçişi seviyesi, lig ve turnuva durumun
+- Günlük giriş serin, şans çarkı ve günlük ödül için son alma zamanların
+
+Buluta **bilerek gitmeyen** şeyler:
+
+- **Satın alma hakkın** ("Reklamları Kaldır") — bunu Google Play Billing geri yükler
+- Reklam kişiselleştirme tercihin ve izin durumun
+- Müzik, ses, titreşim, görsel kalite, dil gibi cihaza ait ayarlar
+
+### Sıralama
+
+Arena'daki rekorun, herkese açık **"Arena — En Yüksek Skor"** sıralamasına gönderilir.
+Bunun anlamı şudur: skorun ve Play Oyunları'ndaki **görünen adın**, sıralamaya bakan diğer
+oyunculara görünür. Aynı şekilde oyun, sıralamanın üst sıralarını ve oradaki oyuncuların
+görünen adlarını sana gösterir.
+
+Giriş yapmadıysan Arena'da gerçek oyuncu yoktur; rakipler kendi rekoruna göre cihazında
+üretilen botlardır ve oyun bunu ekranda açıkça söyler.
+
+## Yalnızca cihazında kalan veriler
+
+Şunlar Android'in yerel depolama alanında (Unity PlayerPrefs / SharedPreferences) durur ve
+**hiçbir yere gönderilmez**, buluta da yazılmaz:
+
 - Ayarların: müzik, ses, titreşim, görsel kalite, dil
-- Günlük giriş serisi, şans çarkı için son çevirme zamanı
 - Reklam kişiselleştirme tercihin
-
-Bu verilere ne biz ne de bir üçüncü taraf erişebilir. Sunucumuz yoktur.
-
-## Sıralama ve turnuva
-
-Arena bölümündeki rakipler **gerçek oyuncu değildir**; senin kendi rekoruna göre
-cihazında üretilen botlardır. Oyun bu ekranlarda "çevrimdışı" uyarısını gösterir.
-Hiçbir skor internete gönderilmez.
+- "Reklamları Kaldır" hakkına sahip olup olmadığın
 
 ## Skor kartı paylaşımı
 
@@ -77,7 +114,8 @@ olarak kalır.
 
 Ödeme tamamen **Google Play** üzerinden yapılır. Kart bilgin, adın ya da fatura bilgin
 bize ulaşmaz; bunları göremeyiz ve saklamayız. Google Play bize yalnızca satın almanın
-gerçekleşip gerçekleşmediğini bildirir. Satın aldığın bilgisi telefonunda saklanır.
+gerçekleşip gerçekleşmediğini bildirir. Satın aldığın bilgisi telefonunda saklanır ve
+cihaz değiştirdiğinde Google Play tarafından geri yüklenir.
 
 Ödeme işlemine ilişkin Google'ın gizlilik politikası:
 https://policies.google.com/privacy
@@ -85,14 +123,27 @@ https://policies.google.com/privacy
 ## Çocuklar
 
 Spike Bounce özellikle 13 yaş altı çocuklara yönelik değildir ve bilerek onlardan veri
-toplamayız. Çocuğunuzun veri paylaştığını düşünüyorsanız yukarıdaki adresten bize
-ulaşın.
+toplamayız. Play Oyunları girişi Google'ın kendi yaş ve ebeveyn denetimi kurallarına
+tabidir. Çocuğunuzun veri paylaştığını düşünüyorsanız yukarıdaki adresten bize ulaşın.
 
-## Haklarınız
+## Haklarınız ve verini silmek
 
-Cihazında tutulan her şeyi silmenin yolu uygulamayı kaldırmaktır; bu işlem tüm ilerlemeni
-ve ayarlarını kalıcı olarak siler. Reklam kimliğini Android Ayarlar → Gizlilik →
-Reklamlar bölümünden sıfırlayabilir veya kişiselleştirmeyi tamamen kapatabilirsin.
+**Cihazındaki veriler:** uygulamayı kaldırmak, telefonda tutulan her şeyi (ayarlar, yerel
+ilerleme, tercihler) kalıcı olarak siler.
+
+**Buluttaki oyun kaydın ve sıralama skorun:** bunlar Google hesabına bağlıdır, silme
+denetimi Google'dadır:
+
+- Play Oyunları uygulaması → Profil → Ayarlar → **Play Oyunları hesabını ve verileri sil**
+  bölümünden, tek tek oyun bazında ya da tamamen silebilirsin. Bu işlem hem bulut kaydını
+  hem de sıralamadaki skorunu kaldırır.
+- Silmekte sorun yaşarsan yukarıdaki adresten bize yaz; elimizden geleni yaparız.
+
+**Reklam kimliği:** Android Ayarlar → Gizlilik → Reklamlar bölümünden sıfırlayabilir veya
+kişiselleştirmeyi tamamen kapatabilirsin.
+
+**Hiç göndermemek:** açılıştaki Play Oyunları girişini reddedersen bulut kaydı ve sıralama
+hiç devreye girmez.
 
 ## Değişiklikler
 
@@ -103,33 +154,70 @@ içinde bildiririz.
 
 # Spike Bounce — Privacy Policy
 
-**Last updated:** 10 August 2026
+**Last updated:** 13 August 2026
 **Contact:** nezirarslan.dev@gmail.com
 
 ## In short
 
-Spike Bounce does not ask you to create an account, does not identify you, and does not
-send your progress to any server. Your scores, coins, unlocked balls and settings live
-**only on your phone**. Uninstalling the game deletes them.
+Spike Bounce has no server and no account system of its own. But the game does use
+**Google Play Games Services**: it signs you in automatically with the Google account on
+your phone, keeps your progress in Google's cloud save, and submits your Arena record to a
+public leaderboard. Your settings and your purchase entitlement stay only on your phone.
+Ads are served by a third party, which processes your advertising ID.
 
-## Data that stays on your device
+Cloud save and the leaderboard are optional: decline the Play Games sign-in and the game
+runs fully offline, sending nothing.
 
-The following is stored in Android's local storage (Unity PlayerPrefs / SharedPreferences)
-and is **never transmitted**:
+## Google Play Games Services
 
-- Your best scores (kept separately per mode) and total run count
-- Coins, XP, level, unlocked balls, pets and titles
+When you open the game it attempts an **automatic sign-in** to Google Play Games Services.
+Google shows the sign-in prompt; the game never sees your password. After signing in, the
+only identity the game receives is your Play Games **player ID and display name**. Your
+email address, real name and contacts do not reach us.
+
+If sign-in fails or you decline, the game falls back to offline mode: cloud save and the
+real leaderboard are disabled, the Arena panels show an "offline" notice, and the game
+remains fully playable.
+
+### Cloud save (Saved Games)
+
+If you are signed in, your progress is stored in a save file (`spike_bounce_progress_v1`)
+tied to your Google account, so that reinstalling the game or changing phones brings your
+progress back. The file lives in Google's Play Games infrastructure; **we hold no copy of
+it** and we operate no server.
+
+Only game progress goes to the cloud:
+
+- Your best scores (kept separately per mode), total run count, total XP, chapter progress
+- Coins, unlocked balls, trails, explosions, themes, sound packs, titles and pets
+- Which of those you currently have selected
+- Mission and achievement progress, season pass level, league and tournament state
+- Daily login streak and the timestamps of your last lucky wheel spin and daily reward
+
+Deliberately **kept out** of the cloud:
+
+- Your purchase entitlement ("Remove Ads") — Google Play Billing restores that instead
+- Your ad personalisation choice and consent state
+- Device-local settings: music, sound, vibration, visual quality, language
+
+### Leaderboard
+
+Your Arena record is submitted to the public **"Arena — High Score"** leaderboard. That
+means your score and your Play Games **display name** are visible to other players looking
+at the ranking. Likewise, the game shows you the top of the leaderboard along with those
+players' display names.
+
+If you are not signed in there are no real players in the Arena; the rivals are bots
+generated on your device from your own record, and the game says so on screen.
+
+## Data that stays only on your device
+
+The following is stored in Android's local storage (Unity PlayerPrefs / SharedPreferences),
+is **never transmitted**, and is not written to the cloud:
+
 - Your settings: music, sound, vibration, visual quality, language
-- Daily login streak and the timestamp of your last lucky wheel spin
 - Your ad personalisation choice
-
-Neither we nor any third party can read this. We do not operate a server.
-
-## Leaderboard and tournament
-
-The rivals in the Arena section are **not real players**. They are bots generated on your
-device from your own best score, and the game shows an "offline" notice on those screens.
-No score is sent over the internet.
+- Whether you own "Remove Ads"
 
 ## Score card sharing
 
@@ -167,21 +255,34 @@ ads shown between rounds. Optional rewarded ads remain available by your choice.
 
 Payment is handled entirely by **Google Play**. Your card details, name and billing
 information never reach us; we cannot see or store them. Google Play only tells us whether
-the purchase completed. The fact that you own it is stored on your phone.
+the purchase completed. The fact that you own it is stored on your phone and restored by
+Google Play when you change devices.
 
 Google's privacy policy covering the payment: https://policies.google.com/privacy
 
 ## Children
 
 Spike Bounce is not directed at children under 13 and we do not knowingly collect data
-from them. If you believe your child has shared data with us, contact us at the address
-above.
+from them. Play Games sign-in is subject to Google's own age and parental control rules.
+If you believe your child has shared data with us, contact us at the address above.
 
-## Your rights
+## Your rights and deleting your data
 
-To erase everything held on your device, uninstall the app; this permanently deletes all
-progress and settings. You can reset your Advertising ID, or turn personalisation off
-entirely, in Android Settings → Privacy → Ads.
+**Data on your device:** uninstalling the app permanently deletes everything held on the
+phone (settings, local progress, preferences).
+
+**Your cloud save and leaderboard score:** these are tied to your Google account and
+deletion is controlled by Google:
+
+- Play Games app → Profile → Settings → **Delete Play Games account & data**, either for
+  this game alone or entirely. This removes both the cloud save and your leaderboard entry.
+- If you have trouble deleting it, write to the address above and we will help.
+
+**Advertising ID:** you can reset it, or turn personalisation off entirely, in Android
+Settings → Privacy → Ads.
+
+**Sending nothing at all:** decline the Play Games sign-in at launch and neither cloud save
+nor the leaderboard is ever engaged.
 
 ## Changes
 
