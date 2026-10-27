@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Spike Bounce - Gizlilik Politikasi / Privacy Policy
+title: Prickle Panic - Gizlilik Politikasi / Privacy Policy
 ---
 
-# Spike Bounce — Gizlilik Politikası
+# Prickle Panic — Gizlilik Politikası
 
-**Son güncelleme:** 13 Ağustos 2026
+**Son güncelleme:** 28 Ekim 2026
 **İletişim:** nezirarslan.dev@gmail.com
 
 > Bu metin oyunun **gerçekte ne yaptığına** bakılarak yazıldı, şablondan değil.
@@ -13,7 +13,7 @@ title: Spike Bounce - Gizlilik Politikasi / Privacy Policy
 
 ## Kısaca
 
-Spike Bounce'un kendi sunucusu ve kendi hesap sistemi yoktur. Ama oyun **Google Play Oyun
+Prickle Panic'in kendi sunucusu ve kendi hesap sistemi yoktur. Ama oyun **Google Play Oyun
 Hizmetleri**'ni kullanır: telefonundaki Google hesabınla otomatik giriş yapar, oyun
 ilerlemeni Google'ın bulut kaydında tutar ve Arena rekorunu herkese açık bir sıralamaya
 gönderir. Ayarların ve satın alma hakkın yalnızca telefonunda durur. Reklamlar bir üçüncü
@@ -122,7 +122,7 @@ https://policies.google.com/privacy
 
 ## Çocuklar
 
-Spike Bounce özellikle 13 yaş altı çocuklara yönelik değildir ve bilerek onlardan veri
+Prickle Panic özellikle 13 yaş altı çocuklara yönelik değildir ve bilerek onlardan veri
 toplamayız. Play Oyunları girişi Google'ın kendi yaş ve ebeveyn denetimi kurallarına
 tabidir. Çocuğunuzun veri paylaştığını düşünüyorsanız yukarıdaki adresten bize ulaşın.
 
@@ -152,14 +152,14 @@ içinde bildiririz.
 
 ---
 
-# Spike Bounce — Privacy Policy
+# Prickle Panic — Privacy Policy
 
-**Last updated:** 13 August 2026
+**Last updated:** 28 October 2026
 **Contact:** nezirarslan.dev@gmail.com
 
 ## In short
 
-Spike Bounce has no server and no account system of its own. But the game does use
+Prickle Panic has no server and no account system of its own. But the game does use
 **Google Play Games Services**: it signs you in automatically with the Google account on
 your phone, keeps your progress in Google's cloud save, and submits your Arena record to a
 public leaderboard. Your settings and your purchase entitlement stay only on your phone.
@@ -262,7 +262,7 @@ Google's privacy policy covering the payment: https://policies.google.com/privac
 
 ## Children
 
-Spike Bounce is not directed at children under 13 and we do not knowingly collect data
+Prickle Panic is not directed at children under 13 and we do not knowingly collect data
 from them. Play Games sign-in is subject to Google's own age and parental control rules.
 If you believe your child has shared data with us, contact us at the address above.
 
