@@ -67,7 +67,7 @@ Giriş yapmadıysan Arena'da gerçek oyuncu yoktur; rakipler kendi rekoruna gör
 ## Yalnızca cihazında kalan veriler
 
 Şunlar Android'in yerel depolama alanında (Unity PlayerPrefs / SharedPreferences) durur ve
-**hiçbir yere gönderilmez**, buluta da yazılmaz:
+oyun ilerlemesiyle birlikte buluta yazılmaz. Reklam tercihleri için SDK’lara iletilen izin sinyalleri aşağıdaki Reklamlar bölümünde açıklanmıştır:
 
 - Ayarların: müzik, ses, titreşim, görsel kalite, dil
 - Reklam kişiselleştirme tercihin
@@ -206,7 +206,7 @@ generated on your device from your own record, and the game says so on screen.
 ## Data that stays only on your device
 
 The following is stored in Android's local storage (Unity PlayerPrefs / SharedPreferences),
-is **never transmitted**, and is not written to the cloud:
+and is not included in the game cloud save. Consent signals shared with advertising SDKs are explained in the Ads section below:
 
 - Your settings: music, sound, vibration, visual quality, language
 - Your ad personalisation choice
