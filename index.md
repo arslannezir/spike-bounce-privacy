@@ -20,7 +20,7 @@ gönderir. Ayarların ve satın alma hakkın yalnızca telefonunda durur. Reklam
 taraf tarafından sunulur ve reklam kimliğini işler.
 
 Bulut kaydı ve sıralama istersen kapatılabilir: Play Oyunları girişini reddedersen oyun
-tamamen çevrimdışı çalışır, hiçbir şey gönderilmez.
+oynanmaya devam eder; Play Oyunları bulut kaydı ve sıralama verileri gönderilmez. Reklam bağlantıları bu tercihten ayrıdır.
 
 ## Google Play Oyun Hizmetleri
 
@@ -88,23 +88,16 @@ sağlayıcı yoktur.
 
 ## Reklamlar
 
-Oyun ücretsizdir ve reklam gösterir. Reklamları **Unity LevelPlay** (ironSource) sağlar.
-LevelPlay bir *aracı* platformdur: reklamı kendisi göstermeyebilir, anlaşmalı reklam
-ağlarına yönlendirir. Bu ağlar da aşağıdaki verileri işleyebilir.
+Oyun ücretsizdir ve ödüllü reklamlar ile turlar arasında geçiş reklamları gösterebilir. Reklamları **Unity LevelPlay (ironSource)** aracılığıyla **ironSource Ads, Unity Ads ve Google AdMob** sağlar.
 
-Reklam gösterebilmek için sağlayıcı şunları işleyebilir:
+Bu sağlayıcılar reklam sunumu, ölçümü, güvenlik ve sahtekârlığı önleme için Android Reklam Kimliği, IP adresi ve yaklaşık konum, cihaz modeli, işletim sistemi, dil ve reklam gösterim/tıklama bilgilerini işleyebilir. İzin gereken bölgelerde reklam talebinden önce **Google'ın kullanıcı rızası ekranı (UMP)** açılır. İzin verebilir, reddedebilir veya seçeneklerini yönetebilirsin. Reddetmek oyunu oynamanı engellemez; izin durumuna ve reklam bulunabilirliğine göre sınırlı veya kişiselleştirilmemiş reklamlar gösterilebilir ya da reklam sunulmayabilir.
 
-- Android Reklam Kimliği (Advertising ID)
-- IP adresin ve yaklaşık (şehir düzeyinde) konumun
-- Cihaz modeli, işletim sistemi sürümü, dil
-- Reklamı görüp görmediğin, tıklayıp tıklamadığın
+Gerekli bölgelerde tercihlerini **Ayarlar → Reklam gizliliği** üzerinden yeniden açabilirsin. Oyunun kişiselleştirme tercihi de Ayarlar'dan değiştirilebilir. İzin bilgileri cihazda saklanır; reklam SDK'ları ilgili izin sinyallerini reklam ortaklarına iletebilir. Bu tercihler oyun ilerlemesiyle birlikte buluta kaydedilmez.
 
-Oyunu ilk açtığında **kişiselleştirilmiş reklamlara izin verip vermeyeceğini** sorarız.
-Reddedersen yine reklam görürsün ama içeriği ilgi alanlarına göre seçilmez. Bu tercihini
-istediğin zaman Ayarlar'dan değiştirebilirsin.
-
-Reklam sağlayıcısının kendi gizlilik politikası:
-https://unity.com/legal/privacy-policy
+Sağlayıcıların gizlilik açıklamaları:
+- Unity Ads ve LevelPlay: https://unity.com/legal/privacy-policy
+- Google AdMob: https://policies.google.com/privacy
+- Google reklam verileri: https://policies.google.com/technologies/partner-sites
 
 ## Satın almalar
 
@@ -166,7 +159,7 @@ public leaderboard. Your settings and your purchase entitlement stay only on you
 Ads are served by a third party, which processes your advertising ID.
 
 Cloud save and the leaderboard are optional: decline the Play Games sign-in and the game
-runs fully offline, sending nothing.
+remains playable without Play Games cloud save or leaderboard submissions. Advertising connections are separate from this choice.
 
 ## Google Play Games Services
 
@@ -234,19 +227,16 @@ analytics provider is connected.
 
 ## Ads
 
-The game is free and shows ads, provided by **Unity LevelPlay** (ironSource). LevelPlay is
-a *mediation* platform: it may not serve the ad itself but route the request to partner ad
-networks, which may process the same data.
+The free game may show optional rewarded ads and interstitial ads between rounds. **Unity LevelPlay (ironSource)** mediates **ironSource Ads, Unity Ads and Google AdMob**.
 
-To serve ads, the provider may process your Android Advertising ID, IP address and
-approximate (city-level) location, device model, OS version and language, and whether you
-saw or tapped an ad.
+These providers may process the Android Advertising ID, IP address and approximate location, device model, OS, language, and ad impression/click information for ad delivery, measurement, security and fraud prevention. In regions where consent is required, **Google's User Messaging Platform (UMP)** displays a consent form before ad requests. You can consent, refuse or manage choices. Refusing does not prevent gameplay. Depending on consent and ad availability, limited/non-personalised ads may be shown, or no ad may be available.
 
-When you first open the game we ask whether you consent to **personalised** ads. If you
-decline you will still see ads, but they will not be selected based on your interests.
-You can change this choice at any time in Settings.
+Where required, reopen your choices using **Settings → Ad privacy**. The game's personalisation preference is also available in Settings. Consent information is stored on the device; advertising SDKs may transmit the relevant consent signals to ad partners. These choices are not included in the game's cloud save.
 
-Ad provider's own privacy policy: https://unity.com/legal/privacy-policy
+Provider privacy information:
+- Unity Ads and LevelPlay: https://unity.com/legal/privacy-policy
+- Google AdMob: https://policies.google.com/privacy
+- Google advertising data: https://policies.google.com/technologies/partner-sites
 
 ## Purchases
 
